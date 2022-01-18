@@ -1,0 +1,97 @@
+{
+    "products": [
+        {
+            "name": "Iphone 12",
+            "price": 500,
+            "sale": 1,
+            "photo": "./images/anuncios/iphone12.png",
+            "tags": [
+                "Lifestyle",
+                "Mobile"
+            ]
+        },
+        {
+            "name": "Applewatch",
+            "price": 120.90,
+            "sale": 1,
+            "photo": "./images/anuncios/smartwatch.png",
+            "tags": [
+                "Lifestyle",
+                "Sports"
+            ]
+        },
+        {
+            "name": "Apple Airpods",
+            "price": 100,
+            "sale": 0,
+            "photo": "./images/anuncios/airpods.png",
+            "tags": [
+                "Mobile",
+                "Lifestyle"
+            ]
+        },
+        {
+            "name": "VR Oculus Rift",
+            "price": 280,
+            "sale": 1,
+            "photo": "./images/anuncios/oculus.png",
+            "tags": [
+                "Gaming",
+                "VR",
+                "Accesories"
+            ]
+        },
+        {
+            "name": "VR Oculus Rift",
+            "price": 235,
+            "sale": 0,
+            "photo": "./images/anuncios/oculus.png",
+            "tags": [
+                "Gaming",
+                "VR",
+                "Accesories"
+            ]
+        },
+        {
+            "name": "Dron Dji Air 2s",
+            "price": 750,
+            "sale": 1,
+            "photo": "./images/anuncios/dronDji.png",
+            "tags": [
+                "Hightech",
+                "dronefly"
+            ]
+        },
+        {
+            "name": "Alexa Echo Show 8",
+            "price": 75,
+            "sale": 1,
+            "photo": "./images/anuncios/echoShow8.png",
+            "tags": [
+                "Accesibility",
+                "Home Gadget"
+            ]
+        },
+        {
+            "name": "GoPro Max",
+            "price": 250,
+            "sale": 0,
+            "photo": "./images/anuncios/GoProMax.png",
+            "tags": [
+                "Travel",
+                "Sports",
+                "Photography"
+            ]
+        },
+        {
+            "name": "iRobot Roomba 971",
+            "price": 500,
+            "sale": 1,
+            "photo": "./images/anuncios/Roomba971.png",
+            "tags": [
+                "Home Gadget",
+                "Cleaning"
+            ]
+        }
+    ]
+}

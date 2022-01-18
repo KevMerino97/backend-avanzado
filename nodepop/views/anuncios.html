@@ -1,0 +1,51 @@
+<% include header.html %>
+
+<div style="margin-left: 2rem ; margin-top: 1rem;">
+    <h1>
+        <%= __('Adverts list') %>
+    </h1>
+</div>
+
+<main class="main-container">
+        
+        
+        <% for (let i=0; i<anuncios.length; i++) { %>
+            <div class="flex-container">
+                <article class="flex-card">
+                    <div class="card-title">
+                        <%= anuncios[i].name %>
+                    </div>
+                    <div class="card-img">
+                        <img src="<%= anuncios[i].photo %>" alt="" id="card-img">
+                    </div>
+                    <div class="card-text">
+
+                        <div class="tags">
+                            <%= anuncios[i].tags %>
+                        </div>
+
+                        <div class="price">
+                            <%= anuncios[i].price %> €
+                        </div>
+                        <div class="sale">
+                            <% if (anuncios[i].sale===true) { %>
+                                <p><%= __('On sale') %></p>
+                                <% } else { %>
+                                    <p><%= __('On demand') %></p>
+                                    <% } %>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        <% } %>
+           
+    </main>
+
+    <footer class="footer">
+        <span><%= __('See the list of') %>
+            <a href="http://localhost:3000/tags">tags
+            </a>
+        </span>
+    </footer>
+
+<% include footer.html %>

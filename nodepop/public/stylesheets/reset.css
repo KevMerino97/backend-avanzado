@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  top: var(--navbar-size);
+}
+
+img,
+video {
+  max-width: 100%;
+  max-height: 8rem;
+
+  background-size: cover;
+  object-fit: cover;
+}
